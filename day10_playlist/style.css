@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display:flex;
+  flex-direction: column;
+  width: 380px;
+  height: 845px;
+  padding: 25px;
+  margin:30px auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  border:5px solid black;
+  background-color: floralwhite;
+}
+section {
+  width:100%;
+}
+header {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:60px;
+  margin-bottom: 20px;
+}
+header > .close-btn {
+  cursor: pointer;
+}
+header > .close-btn:active {
+  font-size:99%;
+}
+
+.close-btn, .list-name, .header-margin {
+  width:33%;
+}
+.close-btn {
+  font-size:30px;
+}
+.list-name {
+  display:flex;
+  justify-content: center;
+  font-size:30px;
+  font-weight: 700;
+}
+.header-margin {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.play-box {
+  display:flex;
+  align-items: center;
+  width:100%;
+}
+.play-box__song-img {
+  flex-basis: 1;
+  width:132px;
+  height:132px;
+  background: no-repeat center url("https://image.bugsm.co.kr/album/images/1000/201196/20119646.jpg");
+  background-size:cover;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin-right:18px;
+}
+.play-box__song-info {
+  flex-basis: 1;
+  line-height:40px;
+}
+.play-box__song-info li:nth-child(1) {
+  font-size:30px;
+  font-weight: 700;
+}
+
+.control-box {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  padding:30px 0;
+}
+.control-box > div {
+  border:solid 2px black;
+  border-bottom-width:5px;
+  cursor: pointer;
+}
+
+.control-box__play-btn {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:150px;
+  height:50px;
+  border-radius:15px;
+  font-weight: 700;
+}
+.control-box__play-btn > span {
+  margin-left:5px;
+}
+.control-box__play-btn:active {
+  border:solid 1px black;
+}
+.control-box__like-btn, .control-box__plus-btn {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+}
+.control-box__like-btn:active,
+.control-box__plus-btn:active {
+  border:solid 1px black;
+}
+
+.song-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.song-list__song-info {
+  display:flex;
+  margin-bottom:50px;
+}
+.song-list__song-info > ul {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.song-list__info__song-img {
+  width:70px;
+  height:70px;
+  margin-right:10px;
+  border-radius:10px;
+  background-color: crimson;
+  border: 2px solid black;
+}
+
+.song-list__song-info:nth-child(1) >
+.song-list__info__song-img {
+  background: no-repeat center url("https://image.bugsm.co.kr/album/images/1000/201196/20119646.jpg");
+  background-size:cover;
+}
+.song-list__song-info:nth-child(2) >
+.song-list__info__song-img {
+  background: no-repeat center url("https://image.bugsm.co.kr/album/images/500/4036/403619.jpg");
+  background-size:cover;
+}
+.song-list__song-info:nth-child(3) >
+.song-list__info__song-img {
+  background: no-repeat center url("https://image.bugsm.co.kr/album/images/1000/201384/20138483.jpg");
+  background-size:cover;
+}
+.song-list__song-info:nth-child(4) >
+.song-list__info__song-img {
+  background: no-repeat center url("https://image.bugsm.co.kr/album/images/1000/1623/162321.jpg");
+  background-size:cover;
+}
+
+.song-list__info__title {
+  font-size:20px;
+  font-weight: 700;
+}
+.song-list__info__singer {
+  font-size:16px;
+  font-weight:300;
+}
