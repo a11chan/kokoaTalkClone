@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,uGAAI;AAIZ,AAAA,CAAC,CAAC;EACA,aAAa,EAAC,IAAI;CAOnB;;AARD,AAEE,CAFD,AAEE,UAAW,CAAA,GAAG,EAAE;EEAjB,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,KAAK;EACd,KAAK,EFDW,IAAI;CACnB;;AAJH,AAKE,CALD,AAKE,UAAW,CAAA,IAAI,EAAE;EEHlB,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,KAAK;EACd,KAAK,EFEW,GAAG;CAClB",
+    "sources": [
+        "../../cssLayoutMaster/scss-masterclass/src/scss/style2.scss",
+        "../../cssLayoutMaster/scss-masterclass/src/scss/_variables.scss",
+        "../../cssLayoutMaster/scss-masterclass/src/scss/_mixins.scss"
+    ],
+    "names": [],
+    "file": "style2.css"
+}
