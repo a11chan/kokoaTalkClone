@@ -1,0 +1,41 @@
+.playing-info__control-box2 {
+  position: absolute;
+  height:60px;
+  bottom:25px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:calc(330px - 25px * 2);
+  padding:0 25px;
+  border-radius: 30px;
+  background-color: var(--main-color);
+}
+.playing-info__now-playing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:60%;
+}
+.playing-info__now-playing-singer, 
+.playing-info__now-playing-song {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.playing-info__now-playing-singer {
+  font-size:20px;
+  color:var(--sub-color);
+}
+.playing-info__now-playing-song {
+  font-size:24px;
+  color:var(--bg-color);
+}
+.playing-info__control-btn {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:33%;
+}
+.playing-info__control-btn i {
+  color:var(--bg-color);
+}

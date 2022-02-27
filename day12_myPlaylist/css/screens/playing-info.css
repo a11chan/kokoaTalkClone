@@ -1,0 +1,16 @@
+.playing-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:330px;
+  height:720px;
+  padding:25px 25px 65px 25px;
+  margin:0 20px;
+  background-color:var(--bg-color);
+  border-radius: 30px;
+  box-shadow: 0 2px 10px 3px rgba(3, 3, 3, .2);
+}
+
+.playing-info:nth-child(1) {
+  position: relative;
+}

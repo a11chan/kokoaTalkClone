@@ -25,19 +25,74 @@
     </div>
   </div>
 
+  <header class="screen-header">
+    <h1 class="screen-header__title">Friends</h1>
+    <div class="screen-header__icons">
+      <span><i class="fa fa-search fa-lg"></i></span>
+      <span><i class="fas fa-music fa-lg"></i></span>
+      <span><i class="fas fa-cog fa-lg"></i></span>
+    </div>
+  </header>
+
+  <a href="#" id="friends-display-link">
+    <i class="fas fa-info-circle"></i>
+    Friends' Names Display
+    <i class="fas fa-chevron-right fa-xs"></i>
+  </a>
+
+  <main class="friends-screen">
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="./imgs/user-component__avatar.png" alt="avatar" class="user-component__avatar user-component__avatar--xl">
+        <div class="user-component__text">
+          <h4 class="user-component__title">Allchan</h4>
+          <!-- <h6 class="user-component__subtitle">subtitle text here</h6> -->
+        </div>
+      </div>
+      <div class="user-component__column"></div>
+    </div>
+    <div class="friends-screen__channel">
+      <div class="friends-screen__channel-header">
+        <span>Channel</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="./imgs/user-component__avatar.png" alt="avatar" class="user-component__avatar user-component__avatar--sm">
+          <div class="user-component__text">
+            <h4 class="user-component__title">Channel</h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>2 <i class="fas fa-chevron-right fa-xs"></i></span>
+        </div>
+      </div>
+    </div>
+  </main>
+    
   <nav class="nav">
     <ul class="nav__list">
       <li class="nav__btn">
-        <a class="nav__link" href="friends.html"><i class="fa fa-2x fa-solid fa-user"></i></a>
+        <a class="nav__link" href="friends.html">
+          <i class="fa fa-2x fa-solid fa-user"></i>
+        </a>
       </li>
       <li class="nav__btn">
-        <a class="nav__link" href="#"><i class="far fa-2x fa-comment"></i></a>
+        <a class="nav__link" href="#">
+          <span class="nav__notification">1</span>
+          <i class="far fa-2x fa-comment"></i>
+        </a>
       </li>
       <li class="nav__btn">
-        <a class="nav__link" href="#"><i class="fa fa-2x fa-search"></i></a>
+        <a class="nav__link" href="#">
+          <i class="fa fa-2x fa-search"></i>
+        </a>
       </li>
       <li class="nav__btn">
-        <a class="nav__link" href="#"><i class="fa fa-2x fa-ellipsis-h"></i></a>
+        <a class="nav__link" href="#">
+          <span class="nav__notification2"></span>
+          <i class="fas fa-2x fa-ellipsis-h"></i>
+        </a>
       </li>
     </ul>
   </nav>

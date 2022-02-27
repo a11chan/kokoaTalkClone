@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+@import "./reset.css";
+@import "./variables.css";
+/* components */
+@import "./components/nav-bar.css";
+@import "./components/info-box.css";
+/* screens */
+@import "./screens/playing-info.css";
+@import "./screens/control-box1.css";
+@import "./screens/song-list.css";
+@import "./screens/control-box2.css";
+@import "./screens/progress-info.css";
+@import "./screens/control-box3.css";
+
+body {
+  font-family: 'Dongle', sans-serif;
+  color:var(--main-color);
+  background-color: #ffdafc4f;
+}
+main {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  padding:20px;
+}

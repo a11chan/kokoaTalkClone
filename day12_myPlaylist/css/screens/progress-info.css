@@ -1,0 +1,51 @@
+.playing-info__progress-info {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  margin-bottom: 50px;
+}
+.playing-info__time-info {
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  font-size:18px;
+  font-weight: 300;
+  color:var(--sub-color);
+  margin-bottom:4px;
+}
+.playing-info__progress-bar {
+  position:relative;
+  width:100%;
+  height:8px;
+  cursor: pointer;
+}
+.playing-info__progress-bar div {
+  position: absolute;
+  border-radius: 5px;
+}
+.playing-info__time-passed {
+  left:0;
+  width:50%;
+  top:50%;
+  transform: translateY(-50%);
+  height:var(--bar-height);
+  background-color: var(--main-color);
+}
+.playing-info__time-now {
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+  width:8px;
+  height:100%;
+  border-radius: 50%;
+  background-color: var(--main-color);
+}
+  .playing-info__time-left {
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+    width:50%;
+    height:var(--bar-height);
+    background-color: var(--sub-color);
+  }

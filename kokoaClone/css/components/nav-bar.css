@@ -12,5 +12,32 @@
   justify-content: space-between;
 }
 .nav__link {
+  position:relative;
   color:#2e363e;
+}
+.nav__notification {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  bottom:15px;
+  left:15px;
+  width:30px;
+  height:30px;
+  color:white;
+  font-weight: 600;
+  border-radius: 50%;
+  background-color: tomato;
+}
+.nav__notification2 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  bottom:30px;
+  right:-5px;
+  width:8px;
+  height:8px;
+  border-radius: 50%;
+  background-color: tomato;
 }
