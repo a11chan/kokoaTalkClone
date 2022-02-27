@@ -13,6 +13,7 @@
   background-color: var(--main-color);
   color:var(--bg-color);
   border-radius: 50%;
+  box-shadow: 0 5px 10px 4px rgba(0, 0, 0, .3);
 }
 .playing-info__control-box3 button:not(:nth-child(n+2):nth-child(-n+4)) {
   color: var(--sub-color);
