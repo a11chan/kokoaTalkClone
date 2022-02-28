@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Chats - Kokoa Clone</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>11%</span>
+      <i class="fas fa-battery-full fa-2x"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="screen-header">
+    <h1 class="screen-header__title">Chats</h1>
+    <div class="screen-header__icons">
+      <span><i class="fa fa-search fa-lg"></i></span>
+      <span><i class="far fa-comment-dots fa-lg"></i> </span>
+      <span><i class="fas fa-music fa-lg"></i></span>
+      <span><i class="fas fa-cog fa-lg"></i></span>
+      <span class="screen-header__notification badge--sm"></span>
+    </div>
+  </header>
+
+  <main class="main-screen chat-screen">
+    <a href="chat.html">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar" src="https://i.pinimg.com/736x/2f/64/dd/2f64dd21b82975d50699e7f507b7c272.jpg" alt="avatar" >
+          <div class="user-component__text">
+            <h4 class="user-component__title">Frodo</h4>
+            <h6 class="user-component__subtitle">Coding Is Writting</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">13:31</span>
+          <!-- <div class="badge">1</div> -->
+        </div>
+      </div>
+    </a>
+    
+    <div class="user-component">
+      <div class="user-component__column">
+        <img class="user-component__avatar" src="https://t1.daumcdn.net/cfile/tistory/23368E335832ABDA19" alt="avatar" >
+        <div class="user-component__text">
+          <h4 class="user-component__title">Ryan</h4>
+          <h6 class="user-component__subtitle">Later equals Never</h6>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <span class="user-component__time">14:36</span>
+        <div class="badge">3</div>
+      </div>
+    </div>
+
+    <div class="user-component">
+      <div class="user-component__column">
+        <img class="user-component__avatar" src="https://cf.creatrip.com/original/blog/8482/rf8m9d35ep0db6tz8fv0w1ei01kabgg8.png" alt="avatar" >
+        <div class="user-component__text">
+          <h4 class="user-component__title">Muzi</h4>
+          <h6 class="user-component__subtitle">We will find a way, we always have</h6>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <span class="user-component__time">16:13</span>
+        <div class="badge">3</div>
+      </div>
+    </div>
+    
+  </main>
+    
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <i class="far fa-2x fa-solid fa-user"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <span class="nav__notification badge">6</span>
+          <i class="fas fa-2x fa-comment"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="find.html">
+          <i class="fa fa-2x fa-search"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <span class="nav__notification--sm badge--sm"></span>
+          <i class="fas fa-2x fa-ellipsis-h"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="no-mobile">
+    <span>Your screen is too big</span>
+  </div>
+
+  <script src="https://kit.fontawesome.com/6247a991a3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
