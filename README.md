@@ -8,3 +8,7 @@
 <br>
 
 :pushpin: [수료증](https://nomadcoders.co/certs/9dbb1a25-924d-4b44-98f9-fdb601e05491)
+
+<br>
+
+:pushpin: [자세히 보기](https://allchan.notion.site/cbdb362ca8424ef0b6d0aab5c103b05a)
